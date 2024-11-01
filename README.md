@@ -13,7 +13,7 @@ Automating the generation of test cases improves efficiency in quality assurance
 3. **Customizable**: Easily configure prompt parameters to fit various testing needs.
 ---
 ## 🏗️ Project Structure
-
+```perl
 ├── assets/
 │   
 ├── code/
@@ -23,7 +23,7 @@ Automating the generation of test cases improves efficiency in quality assurance
 ├── requirements.txt           # Dependencies
 └── test_data/
     └── sample_input.txt       # Sample input descriptions and expected output
-    
+```    
 ---
 ## 📋 Table of Contents
 Project Overview
