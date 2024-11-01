@@ -1,6 +1,6 @@
 ## Automation in Testing: LLM-Powered Test Case Generation
 Generate test cases directly from feature descriptions using prompt engineering and an LLM model! This project automates the creation of structured, detailed test cases, optimizing quality assurance processes.
-(assets/33.png)
+![AI Automation](assets/33.png)
 
 ---
 ## 📑 Project Overview
