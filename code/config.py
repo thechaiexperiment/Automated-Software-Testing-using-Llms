@@ -7,15 +7,19 @@ LLM_MODEL = "gpt-4"  # or another model name as per API
 
 # Prompt settings
 PROMPT_TEMPLATE = """
-Create a set of detailed test cases for the following description:
-"{description}"
-The test cases should include:
-1. A brief test case title.
-2. Preconditions, if any.
-3. Steps to perform the test.
-4. Expected results.
+You are an intelligent assistant designed to generate automated test cases based on the following requirements provided by the user.
 
-Ensure clarity and usability for QA testing purposes.
+### User Requirements:
+{user_input}
+
+### Your Task:
+Create comprehensive and clear automated test cases that effectively validate the specified functionality. Ensure that the test cases cover various scenarios, including edge cases, and are structured in a way that is easy to understand and implement.
+
+### Example Test Cases:
+1. 
+2. 
+3. 
+...
 """
 
 
