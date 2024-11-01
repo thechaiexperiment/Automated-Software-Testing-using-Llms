@@ -1,0 +1,18 @@
+# Sample Input for Automated Test Case Generation
+
+## User Stories:
+1. As a user, I want to create a new account using my email and password.
+2. As a user, I want to log in to my account with my credentials.
+3. As a user, I want to reset my password if I forget it.
+
+## Acceptance Criteria:
+- User can enter a valid email and password to register.
+- User receives a confirmation email upon successful registration.
+- User can log in with valid credentials.
+- User can reset password by entering their registered email.
+- User receives an email with instructions to reset the password.
+
+## Edge Cases:
+- User attempts to register with an already used email.
+- User attempts to log in with incorrect credentials.
+- User attempts to reset password with an unregistered email.
